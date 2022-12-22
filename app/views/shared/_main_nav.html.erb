@@ -26,9 +26,11 @@
         <input type="button" value="Log in" />
       </li>
 
-      <li id="gear_icon">
-        <i class="fa-solid fa-gear"></i>
-      </li>
+			<li data-controller="gear-dropdown">
+        <div id="gear-dropdown-btn" data-action="click->gear-dropdown#toggleDropdown">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+			</li>
     </ul>
   </nav>
 </header>
