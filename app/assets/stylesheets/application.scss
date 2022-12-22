@@ -14,10 +14,10 @@
  */
 
 // CSS Reset
-@use "base/reset";
+@import "base/reset";
 
 // Core
-@use "base/layout";
+@import "base/layout.scss";
 
 // Components
-@use "components";
+@import "components";
